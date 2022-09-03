@@ -8,6 +8,7 @@ pipeline {
 				sh '''
 				echo "ola"
 				ls -la
+				pwd
 				'''
 			}
 		}
