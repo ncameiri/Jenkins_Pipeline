@@ -4,6 +4,11 @@ pipeline {
 		stage{'Builds'} {
 			steps {
 				sh 'echo "hello"'
+				
+				sh '''
+				echo "ola"
+				ls -la
+				'''
 			}
 		}
 	}
